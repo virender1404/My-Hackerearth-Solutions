@@ -1,0 +1,14 @@
+<?php
+//program by Mr. Awesome
+fscanf(STDIN,"%d\n",$n);
+$a=0;
+$b=1;
+while($n>0)
+	{
+		$c=$a+$b;
+		$a=$b;
+		echo $a."\n";
+		$b=$c;
+	    $n--;
+	}
+?>

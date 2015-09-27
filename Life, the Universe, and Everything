@@ -1,0 +1,14 @@
+t = 1
+while t<101
+  if t%3 == 0 and t%5 == 0
+    puts"FizzBuzz"
+  elsif t%3 == 0
+    puts"Fizz"
+  elsif t%5 == 0
+    puts"Buzz"
+  else
+    puts t
+  end
+t=t+1
+end
+
